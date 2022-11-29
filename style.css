@@ -42,7 +42,7 @@ a:hover{
     margin-left: 9rem;
 }
 .search input{
-    padding-left: 12px;
+    padding-left: 9px;
     margin-left: 9px;
     width: 21.2rem;
     height:3rem ;
@@ -51,4 +51,223 @@ a:hover{
     border: none;
     outline: inherit;
     color: white;
+}
+#main{
+  
+    float: right; 
+    margin-top: 4rem;
+    width: 100%;
+    height: 90vh;   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0,0.75));
+}
+#main{
+    float: left;
+    padding-left: 55rem;
+    padding-top: 1rem;  
+}
+
+
+.img{width: 20%;
+    height: 10vh;
+    margin-left: -55rem;
+    margin-top:-0.92rem;
+   
+}
+.logo h1{
+    
+    font-size: 6rem;
+    color: whitesmoke;
+}
+.logo p{
+    color: gray;
+    font-size: 1.3rem;
+}
+.button{
+    margin-top: 0.4rem;
+    width: 10rem;
+    height: 2rem;
+    background-color: bisque;
+}
+#about{
+   width: 100%;
+   height: 180vh;
+    background-color: brown;
+
+}
+#about h1{
+    font-size: 3rem;
+  text-align: center;
+  color: white;
+}
+#us{
+    color:bisque;
+}
+.about_img{
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+}
+.img_description{
+    color: white;
+    font-size:  x-large;
+    padding-left: 5rem;
+    
+}
+.img_description p{
+    font-size: 1.4rem;
+    font-family: sans-serif;
+}
+.our_menu{
+    width: 100%;
+    height: 170vh;
+    background-color: brown;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+}
+.our_menu h2{
+    padding-top: 1.5rem;
+    padding-left: 39rem;
+    font-size: 3rem;
+}
+.menu_row1{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5rem;
+}
+.box{
+    text-align: center;
+    padding-top: 2rem;
+    width: 25%;
+    height: 40vh;
+    border: 1px solid;
+    border-color: aquamarine;
+}
+.box:hover{
+    background-color: bisque;
+    
+    
+   
+}
+.box img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 40px;
+
+}
+.box img:hover{
+    width: 6rem;
+    height: 6rem;
+    border: 1px solid gray;
+}
+.box h1{
+
+    font-size: medium;
+    color: grey;
+}
+
+button{
+    background-color: bisque;
+    border: 1px solid black;
+    width: 5rem;
+    height: 1.5rem;
+    color:brown;  
+}
+
+
+.menu_row2{
+    display: flex;
+  justify-content: space-around;
+  padding-top: 5rem;  
+}
+.menu_row3{
+    display: flex;
+  justify-content: space-around;
+  padding-top: 5rem;
+}
+.reviews{
+    width: 100%;
+    height: 100vh;
+    background-color: brown;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+}
+.reviews h1{
+    padding-top: 3rem;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+.rev{
+    width: 25rem;
+    height: 70vh;
+    border: 1px solid black;
+}
+.rev h1{
+    font-size: 6rem;
+}
+.rev p{
+    padding: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+.rev_box{
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+.contact_us{
+    padding: 4rem;
+    display: flex;
+    
+    width: 100%;
+    height: 90vh;
+    background-color: brown;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+    border: 1px solid white;
+}
+
+.contact{
+    color: white;
+    width:50% ;
+    height: 60vh;
+    background-color:brown;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+    margin-left: 5rem;
+    border: 1px solid white;
+}
+.contact h1{
+    text-align: center;
+    
+}
+.input{
+    margin: 3rem ;
+    margin-left: 4rem;
+    width: 35rem;
+    height: 3rem;
+    border: 2px solid white;
+}
+.input input{
+    width: 30rem;
+    height: 2.8rem;
+    background-color: brown;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+    font-size: large;
+    border: none;
+    outline: inherit;
+    padding-left: 4rem;
+    color: white;
+}
+.btn{
+    width: 8rem;
+    height: 3rem;
+    background-color: bisque;
+    color: black;
+   font-weight: bolder;
+   margin-left: 19rem;
+   margin-top: -2rem;
+   border-radius: 10px;
+}
+.btn:hover{
+    background-color: whitesmoke;
 }
